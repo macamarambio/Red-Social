@@ -3,6 +3,8 @@ $(document).ready(()=> {
 	$('.language').hide();
 	$('.login').hide();
 	$('.principal').hide();
+	$('#agregar').hide();
+	$('#comentarios').hide();
 
 	/*Vista splash con duración de 2 a 5 segundos*/
 	setTimeout(()=> {
@@ -30,11 +32,7 @@ $(document).ready(()=> {
 		$('.principal').show();
 	});
 
-/*Select tipos de comida*/
 
-
-
-});
 
 /*Filtrar Restaurantes*/
 
@@ -67,4 +65,15 @@ function filter(id) {
 	}
 }
 
+/*AGREGAR UN COMENTARIO*/
+
+	$('.timeline-footer').click(()=>{
+		$('.timeline-panel1').show();
+		$('.timeline-panel2').hide();
+		$('.#agregar').show();
+		$('#comentarios').show();
+	});
+
+
+});
 
