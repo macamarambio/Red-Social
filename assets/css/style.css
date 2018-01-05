@@ -281,13 +281,13 @@
 			width: 100%;
 		}
 		.login{
-		padding: 2% 10%;
+			padding: 2% 10%;
 		}
 
 		#btnback{
-		margin-left: -5%;
-		font-size: 23px;
-		font-family: 'Englebert', sans-serif;
+			margin-left: -5%;
+			font-size: 23px;
+			font-family: 'Englebert', sans-serif;
 		}
 	}
 
@@ -313,9 +313,9 @@
 		}
 
 		#btnback{
-		margin-top: -25em;
-		font-size: 20px;
-		font-family: 'Englebert', sans-serif;
+			margin-top: -25em;
+			font-size: 20px;
+			font-family: 'Englebert', sans-serif;
 		}
 	}
 
@@ -442,95 +442,95 @@
 	}
 
 	#recetasModal h4{
-	margin-bottom: 0.1em;
-}
+		margin-bottom: 0.1em;
+	}
 
-#recetasModal img:last-child{
-	margin-bottom: 1em;
-}
+	#recetasModal img:last-child{
+		margin-bottom: 1em;
+	}
 
 	.fa-cutlery{
 		margin-right: 1em;
 	}
 
-  @media only screen and (max-width : 767px){
-  /* PERFIL */
-  .profile img{
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 5%;
-  }
+	@media only screen and (max-width : 767px){
+		/* PERFIL */
+		.profile img{
+			width: 30%;
+			margin-left: 35%;
+			margin-top: 5%;
+		}
 
-  .profile h3{
-    margin-left: 30%;
-    margin-top: 5%;
-    font-family: 'Englebert', sans-serif;
-    color: #AA0000;
-  }
+		.profile h3{
+			margin-left: 30%;
+			margin-top: 5%;
+			font-family: 'Englebert', sans-serif;
+			color: #AA0000;
+		}
 
-  table{
-    width: 100%;
-    margin-top: 5%;
-  }
+		table{
+			width: 100%;
+			margin-top: 5%;
+		}
 
-  thead th, tbody td{
-    text-align: center;
-    width: 15%;
-    font-family: 'Englebert', sans-serif;
-    color: #AA0000;
-  }
+		thead th, tbody td{
+			text-align: center;
+			width: 15%;
+			font-family: 'Englebert', sans-serif;
+			color: #AA0000;
+		}
 
-  #photo1 img, #photo2 img, #photo3 img{
-    width: 120%;
-    height: 120%;
-    margin-left: 60%;
-  }
+		#photo1 img, #photo2 img, #photo3 img{
+			width: 120%;
+			height: 120%;
+			margin-left: 60%;
+		}
 
-  #secondPhoto, #thirdPhoto{
-    margin-top: 5%;
-  }
-}
+		#secondPhoto, #thirdPhoto{
+			margin-top: 5%;
+		}
+	}
 
 
-  @media only screen and (min-width : 768px){
+	@media only screen and (min-width : 768px){
 
-  .profile img{
-    width: 20%;
-    margin-left: 40%;
-    margin-top: 5%;
-  }
+		.profile img{
+			width: 20%;
+			margin-left: 40%;
+			margin-top: 5%;
+		}
 
-  .profile h3{
-    margin-left: 43%;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: 'Englebert', sans-serif;
-    color: #AA0000;
-  }
+		.profile h3{
+			margin-left: 43%;
+			font-size: 30px;
+			font-weight: 600;
+			font-family: 'Englebert', sans-serif;
+			color: #AA0000;
+		}
 
-  table{
-    width: 100%;
-    margin-top: 5%;
-  }
+		table{
+			width: 100%;
+			margin-top: 5%;
+		}
 
-  thead th, tbody td{
-    text-align: center;
-    width: 25%;
-    font-size: 25px;
-    font-family: 'Englebert', sans-serif;
-    color: #AA0000;
-  }
+		thead th, tbody td{
+			text-align: center;
+			width: 25%;
+			font-size: 25px;
+			font-family: 'Englebert', sans-serif;
+			color: #AA0000;
+		}
 
-  #photo1 img, #photo2 img, #photo3 img{
-    width: 120%;
-    height: 120%;
-    margin-left: 40%;
-    margin-right: 5%;
- }
+		#photo1 img, #photo2 img, #photo3 img{
+			width: 120%;
+			height: 120%;
+			margin-left: 40%;
+			margin-right: 5%;
+		}
 
-  #secondPhoto, #thirdPhoto{
-    margin-top: 5%;
-  }
+		#secondPhoto, #thirdPhoto{
+			margin-top: 5%;
+		}
 
-  }
+	}
 /*FIN DEL PERFIL*/
