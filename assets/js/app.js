@@ -27,6 +27,7 @@ $(document).ready(()=> {
     $('.profile').hide();
     $('.principal').show();
   });
+
 /*Seccion Principal*/
   $('#iniciar').click(()=>{
     $('.language').hide();
