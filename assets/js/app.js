@@ -23,6 +23,10 @@ $(document).ready(()=> {
     $('.login').hide();
   });
 
+  $('#btnprofile').click(()=>{
+    $('.profile').hide();
+    $('.principal').show();
+  });
 /*Seccion Principal*/
   $('#iniciar').click(()=>{
     $('.language').hide();
@@ -30,6 +34,7 @@ $(document).ready(()=> {
     $('.principal').show();
     $('#comentarios').hide();
     $('#agregar').hide();
+    $('.profile').hide();
   });
 });
 
