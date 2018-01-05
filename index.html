@@ -467,6 +467,7 @@
 			</div>
 		</div>
 		<!--FIN FILTRO DE COMIDA-->
+
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -474,6 +475,8 @@
 				</div>
 			</div>
 		</div>
+
+		<!--INICIO IMAGENES DE COMIDA MEXICANA-->
 		<div class="container" id="mexico">
 			<div class="row">
 				<ul class="timeline">
@@ -494,7 +497,7 @@
 							<a>
 								<i class="glyphicon glyphicon-plus"></i>
 							</a>
-							<a class="pull-right">Agregar comentarios</a>
+							<a class="pull-right" id="agrega">Agregar comentarios</a>
 						</div>
 					</div>
 				</ul>
@@ -524,9 +527,9 @@
 				</ul>
 			</div>
 		</div>
+			<!--FIN SECCION MEXICO-->
 			
-			
-
+		<!--INICIO SECCION IMAGENES COMIDA JAPONESA-->
 		<div class="container" id="japon">
 			<div class="row">
 				<ul class="timeline">
@@ -577,7 +580,9 @@
 				</ul>
 			</div>
 		</div>
-					
+		<!--FIN COMIDA JAPONESA-->
+
+		<!--INICIO IMAGENES COMIDA THAI-->
 		<div class="container" id="thai">
 			<div class="row">
 				<ul class="timeline">
@@ -611,9 +616,6 @@
 						</div>
 						<div class="timeline-footer center-block">
 							<a>
-								<i class="glyphicon glyphicon-thumbs-up"></i>
-							</a>
-							<a>
 								<i class="glyphicon glyphicon-share"></i>
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
@@ -621,6 +623,23 @@
 					</div>
 				</ul>
 			</div>
+		</div>
+	</div>
+	<!--FIN SECCION COMIDA THAI-->
+
+	
+<!--INICIO DE AGREGAR COMENTARIOS-->
+    <div class="row">
+    	<div class="col-xs-10 col-sm-12 col-md-12 col-lg-12 ">
+				<div class="widget-area no-padding blank" id="agregar">
+					<div class="status-upload">
+						<form>
+							<textarea placeholder="Agrega un comentario a la imagen..." ></textarea>
+							<ul>
+								<li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Picture"><i class="fa fa-picture-o"></i></a></li>
+							</ul>
+							<button type="submit" class="btn btn-success green"><i class="fa fa-share"></i>Enviar</button>
+						</form>
 			<div class="row">
 				<ul class="timeline">
 					<div class="timeline-panel14">
@@ -643,9 +662,46 @@
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
 						</div>
+
 					</div>
-				</ul>
+				</div>
 			</div>
+
+    </div>
+
+<!--FIN DE AGREGAR COMENTARIOS-->
+	
+	<!--INICIO COMENTARIOS AGREGADOS-->
+	<div class="comments" id="comentarios">
+		<div class="col-xs-10 col-sm-12"">
+		<div class="comment-wrap">
+				<div class="photo">
+						<div class="avatar" style="background-image: url('https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg')"></div>
+				</div>
+				<div class="comment-block">
+						<p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus iste nostrum dolorem natus recusandae incidunt voluptatum. Eligendi voluptatum ducimus architecto tempore, quaerat explicabo veniam fuga corporis totam reprehenderit quasi
+								sapiente modi tempora at perspiciatis mollitia, dolores voluptate. Cumque, corrupti?</p>
+						<div class="bottom-comment">
+								<div class="comment-date">2 Enero, 2018 @ 2:35 PM</div>
+								<ul class="comment-actions">
+									<li class="reply">Responder</li>
+								</ul>
+						</div>
+				</div>
+		</div>
+
+		<div class="comment-wrap">
+				<div class="photo">
+						<div class="avatar" style="background-image: url('https://s3.amazonaws.com/uifaces/faces/twitter/felipenogs/128.jpg')"></div>
+				</div>
+				<div class="comment-block">
+						<p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto temporibus iste nostrum dolorem natus recusandae incidunt voluptatum. Eligendi voluptatum ducimus architecto tempore, quaerat explicabo veniam fuga corporis totam.</p>
+						<div class="bottom-comment">
+								<div class="comment-date">4 Enero, 2018 @ 10:32 AM</div>
+								<ul class="comment-actions">
+									<li class="reply">Responder</li>
+								</ul>
+
 			<div class="row">
 				<ul class="timeline">
 					<div class="timeline-panel13">
@@ -666,12 +722,18 @@
 								<i class="glyphicon glyphicon-plus"></i>
 							</a>
 							<a class="pull-right">Agregar comentarios</a>
+
 						</div>
-					</div>
-				</ul>
-			</div>
+				</div>
 		</div>
 	</div>
+
+</div>
+
+<!--FIN PARA AGREGAR COMENTARIOS-->
+	
+		
+
 	<!-- fin seccion principal -->
 
   <!--PERFIL-->

@@ -2,6 +2,8 @@ $(document).ready(()=> {
 	$('.language').hide();
 	$('.login').hide();
 	$('.principal').hide();
+	$('#agregar').hide();
+	$('#comentarios').hide();
 	$('.profile').hide();
 
 	/*Vista splash con duración de 2 a 5 segundos*/
@@ -113,6 +115,7 @@ function filter(id) {
 			});
 });
 
+
 function filter(id) {
 	var filt = $('#selector').val();
 	$('#comida').val('');
@@ -142,5 +145,16 @@ function filter(id) {
 	}
 }
 
+/*AGREGAR UN COMENTARIO*/
+
+	$('.timeline-footer').click(()=>{
+		$('.timeline-panel1').show();
+		$('.timeline-panel2').hide();
+		$('.#agregar').show();
+		$('#comentarios').show();
+	});
+
+
+});
 
 */
