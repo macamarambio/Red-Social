@@ -2,6 +2,7 @@ $(document).ready(()=> {
   $('.language').hide();
   $('.login').hide();
   $('.principal').hide();
+  $('.profile').hide();
 
   /*Vista splash con duración de 2 a 5 segundos*/
   setTimeout(()=> {
@@ -73,3 +74,11 @@ function filter(id) {
     $('#agregar').show();
     $('#comentarios').show();
   });
+
+  /* PERFIL */
+  $('#perfil').click(()=>{
+    $('.language').hide();
+    $('.login').hide();
+    $('.principal').hide();
+    $('.profile').show();
+  })
